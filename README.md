@@ -1,4 +1,4 @@
-# talkeasy_loginsignup
+# talkeasy
 
 A new Flutter project.
 
