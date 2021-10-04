@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:talkeasy_loginsignup/dashboard.dart';
 
 
 import 'animation/FadeAnimation.dart';
@@ -63,7 +64,9 @@ class SignupPage extends StatelessWidget {
                 child: MaterialButton(
                   minWidth: double.infinity,
                   height: 50,
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Dashboard()));
+                  },
                   color: Colors.greenAccent,
                   elevation: 0,
                   shape: RoundedRectangleBorder(
