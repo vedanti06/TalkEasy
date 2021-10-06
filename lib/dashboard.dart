@@ -238,26 +238,54 @@ class Dashboard extends StatelessWidget {
             child: AnimatedTextKit(
               repeatForever: true,
               animatedTexts: [
-                FadeAnimatedText('                       Translator                                                      '
-                    'Use this feature to communicate easily overcoming language barriers!',
-                    duration: Duration(seconds: 7),
+                ScaleAnimatedText(
+                  'Translator',
+                  textStyle: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold),
+                  duration: Duration(seconds: 3),
+                ),
+                FadeAnimatedText(
+                  'Use this feature to communicate easily overcoming language barriers!',
+                  textStyle: TextStyle(fontSize: 20.0),
+                    duration: Duration(seconds: 5),
                     fadeOutBegin: 0.9,
-                    fadeInEnd: 0.7),
-                FadeAnimatedText('                           Chat                                                        '
+                    fadeInEnd: 0.7
+                ),
+                ScaleAnimatedText(
+                  'Chat',
+                  textStyle: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold),
+                  duration: Duration(seconds: 3),
+                ),
+                FadeAnimatedText(
                     'Use this feature to chat with the staff, order what you all want and much more!',
-                    duration: Duration(seconds: 7),
+                    textStyle: TextStyle(fontSize: 20.0),
+                    duration: Duration(seconds: 5),
                     fadeOutBegin: 0.9,
-                    fadeInEnd: 0.7),
-                FadeAnimatedText('                          Maps                                                         '
+                    fadeInEnd: 0.7
+                ),
+                ScaleAnimatedText(
+                  'Maps',
+                  textStyle: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold),
+                  duration: Duration(seconds: 3),
+                ),
+                FadeAnimatedText(
                     'Use this feature to navigate places you want to visit outside your hotel!',
-                    duration: Duration(seconds: 7),
+                    textStyle: TextStyle(fontSize: 20.0),
+                    duration: Duration(seconds: 5),
                     fadeOutBegin: 0.9,
-                    fadeInEnd: 0.7),
-                FadeAnimatedText('                            Review                                                      '
+                    fadeInEnd: 0.7
+                ),
+                ScaleAnimatedText(
+                  'Review',
+                  textStyle: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold),
+                  duration: Duration(seconds: 3),
+                ),
+                FadeAnimatedText(
                     'Use this feature to give your valuable reviews and feedback to the enhance the stay for future guests!',
-                    duration: Duration(seconds: 7),
+                    textStyle: TextStyle(fontSize: 20.0),
+                    duration: Duration(seconds: 5),
                     fadeOutBegin: 0.9,
-                    fadeInEnd: 0.7),
+                    fadeInEnd: 0.7
+                ),
               ],
             ),
           ),
